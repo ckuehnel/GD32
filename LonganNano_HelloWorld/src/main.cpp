@@ -1,3 +1,18 @@
+/*
+ * HelloWorld for Sipeed Longan Nano a GigaBit RISC-V GD32VF103CBT6 based board.
+ *
+ * Turns an LED on and off for multiple short periods and then off for a longer period
+ * echoing the state of the LED to a terminal. This action is continuously repeated.
+ * 
+ * Using Sipeed init_uart0() procedure to send printf output to the serial port
+ * http://longan.sipeed.com/zh/examples/printf.html (thank you to Google for the translation)
+ *
+ * Based on the example nanoblink2 by Michel Deslierres <https://sigmdel.ca/michel>
+ * 2020-06-27 Claus Kühnel (info@ckuehnel.ch)
+ *
+ * This example code is in the public domain.
+ */ 
+
 #include <Arduino.h>       
 
 #define CYCLES         2  // 2 yields a heartbeat effect

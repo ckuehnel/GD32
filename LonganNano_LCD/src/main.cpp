@@ -1,3 +1,17 @@
+/*
+ * LCD Example for Sipeed Longan Nano a GigaBit RISC-V GD32VF103CBT6 based board.
+ *
+ * Shows Sipeed logo and text output on on-board LCD
+ * 
+ * Using Sipeed init_uart0() procedure to send printf output to the serial port
+ * http://longan.sipeed.com/zh/examples/printf.html (thank you to Google for the translation)
+ *
+ * Based on the example nanoblink3 by Michel Deslierres <https://sigmdel.ca/michel>
+ * 2020-06-27 Claus Kühnel (info@ckuehnel.ch)
+ *
+ * This example code is in the public domain.
+ */ 
+
 #include <Arduino.h>
 
 extern "C" {
